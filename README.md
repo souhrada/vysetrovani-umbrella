@@ -22,7 +22,7 @@ Nehledejte za tím nic komplikovaného. Použijte příkazy, které znáte. Vše
 
 "Vyslechněte svědky" znamená prohlídněte/otevřete dané textové soubory.
 
-Pokud narazíte na soubor, končící .sh (např. robot.sh), můžete jej spustit, stačí, když napíšete `./` a jeho název, např. `./robot.sh`
+Pokud narazíte na soubor, končící .py (např. robot.py), můžete jej spustit, stačí, když napíšete `python3` a jeho název, např. `python3 robot.sh`
 
  
 
