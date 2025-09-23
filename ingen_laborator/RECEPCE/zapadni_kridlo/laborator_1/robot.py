@@ -63,31 +63,28 @@ def main():
     clear()
     print()
     print()
-    print("Dobry. Den. Co. Pro. Vas. Mohu. Zanalyzovat?")
+    print("Dobrý. Den. Co. Pro. Vás. Mohu. Zanalyzovat?")
     print()
     choice = input(
-        "Zmacknete prvni pismeno predmetu, ktery chcete analyzovat.\n"
-        "Napr. pro lopatu zmacknete L. Pro konec stisknete K: "
+        "Jaký předmět má být zanalyzován?.\n"
+        "Napiš název předmětu, který chceš vyšetřit. Pro konec stiskni K: "
     ).strip().lower()
 
-    if choice == "k":
+    if choice == "nuz" or choice == "nůž":
         clear()
-        print("\nAnalyzuji... Na nozi nejsou zadne prokazatelne otisky\n")
-    elif choice == "o":
+        print("\nAnalyzuji... Na noži nejsou žádné prokazatelné otisky\n")
+    elif choice == "pacidlo" or choice == "páčidlo":
         clear()
-        print("\nLopata je pouze priklad. Spuste znovu a zadejte prvni pismenko Vaseho predmetu\n")
-    elif choice == "p":
-        clear()
-        print("\nAnalyzuji... Na pacidlu je otisk prstu doktora Fialy\n")
-    elif choice == "l":
+        print("\nAnalyzuji... Na páčidlu je otisk prstu doktora Fialy\n")
+    elif choice == "otisk":
         clear()
         print("\nAnalyzuji... Toto je otisk prstu doktora Fialy\n")
-    elif choice == "n":
+    elif choice == "k":
         clear()
         print("\nKonec programu.\n")
     else:
         clear()
-        print("\nNeznama volba.\n")
+        print(f"\n{choice} není ničím speciální.\n")
 
 if __name__ == "__main__":
     main()
