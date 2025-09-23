@@ -10,7 +10,7 @@ První, co je potřeba udělat je stáhnout data odsud - `git clone https://gith
 
 Ve vzniklé složce máte budovy (složky): InGen_laborator a Policejni_stanice. Projděte laboratoř, vyslechněte svědky a najděte stopy vedoucí k vrahovi.
 
-Materiály: CD s prvním důkazem zde a CD smetiště zde.
+Materiály: CD s prvním důkazem a CD smetiště naleznete na N:/OSY/3_roc/opakovani_linux_vysetrovani
 
  
 
