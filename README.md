@@ -2,17 +2,12 @@
 
 V laboratoři InGen se stala vražda!
 A je na vás, abyste ji vyšetřili a našli viníka.
- 
-
- 
 
 První, co je potřeba udělat je stáhnout data odsud - `git clone https://github.com/souhrada/vysetrovani-umbrella.git`
 
 Ve vzniklé složce máte budovy (složky): InGen_laborator a Policejni_stanice. Projděte laboratoř, vyslechněte svědky a najděte stopy vedoucí k vrahovi.
 
 Materiály: CD s prvním důkazem a CD smetiště naleznete na N:/OSY/3_roc/opakovani_linux_vysetrovani
-
- 
 
 Nápověda:
 
@@ -22,14 +17,9 @@ Nehledejte za tím nic komplikovaného. Použijte příkazy, které znáte. Vše
 
 "Vyslechněte svědky" znamená prohlídněte/otevřete dané textové soubory.
 
-Pokud narazíte na soubor, končící .py (např. robot.py), můžete jej spustit, stačí, když napíšete `python3` a jeho název, např. `python3 robot.sh`
-
- 
-
- 
+Pokud narazíte na soubor, končící .py (např. robot.py), můžete jej spustit, stačí, když napíšete `python3` a jeho název, např. `python3 robot.py`
 
 Vaše úkoly:
- 
 
 1. Až najdete vraha (nebo vrahy) tak ho přesuňte do složky VEZENI, která se nachází ve složce policejni_stanice
 
@@ -41,12 +31,7 @@ Vaše úkoly:
 
 5. Na smetišti (CD smetiste) jste ztratili odznak. Najděte ho a jeho číslo zapište do souboru odznak.txt a vložte jej do složky policejni_stanice
 
- 
-
- 
-
 Odevzdávejte tyto screenshoty (všechny ve formátu JPG):
- 
 
 1. screenshot obsahu složky DUKAZY
 
@@ -54,11 +39,6 @@ Odevzdávejte tyto screenshoty (všechny ve formátu JPG):
 
 3. screenshot obsahu složky VEZENI
 
-4. až najdete číslo odznaku a zapíšete ho do souboru odznak.txt, napište v příkazovém řádku: type odznak.txt a udělejte screenshot 
-
- 
-
- 
+4. až najdete číslo odznaku a zapíšete ho do souboru odznak.txt, napište v příkazovém řádku: type odznak.txt a udělejte screenshot
 
 Hodně štěstí při hledání vraha, nenechte toho všiváka uniknout spravedlnosti.
-
